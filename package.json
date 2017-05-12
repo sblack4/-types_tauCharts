@@ -1,0 +1,39 @@
+{
+  "name": "create-ts-app",
+  "version": "1.0.0",
+  "description": "basic ts app",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo To get started type: npm install mocha @types/mocha --save-dev ",
+    "serve": "webpack-dev-server",
+    "webpack": "webpack --watch",
+    "deploy": " tsc && npm pack",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sblack4/create-ts-app.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "npm"
+  ],
+  "author": "Steven Black <genseb7@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sblack4/create-ts-app/issues"
+  },
+  "homepage": "https://github.com/sblack4/create-ts-app#readme",
+  "dependencies": {
+    "@types/d3": "^4.8.0",
+    "britecharts": "^1.5.2",
+    "d3": "^4.8.0",
+    "source-map-loader": "^0.2.1",
+    "taucharts": "^1.1.3",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
