@@ -1,7 +1,16 @@
 node_modules
+
+# get a few specific files
 !node_modules/
 node_modules/*
+
+# the type definitions I wrote
 !node_modules/@types/
 node_modules/@types/*
 !node_modules/@types/britecharts/
 !node_modules/@types/tauCharts/
+
+# the index.js that britecharts desperately needs
+!node_modules/britecharts
+node_modules/britecharts/*
+!node_modules/britecharts/index.js
