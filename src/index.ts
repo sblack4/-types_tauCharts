@@ -1,5 +1,5 @@
 import * as tauCharts from "tauCharts";
-import {brush} from "britecharts";
+import {bar} from "britecharts";
 
 console.log("Hello World");
 
@@ -40,5 +40,5 @@ var chart = new tauCharts.Chart({
 
 chart.renderTo("#viz");
 
-var brushChart = brush();
+var brushChart = bar();
 
